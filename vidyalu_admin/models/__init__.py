@@ -1,0 +1,3 @@
+from vidyalu_admin.models.query_message_model import QueryMessageModel
+from vidyalu_admin.models.news_letter_email_model import NewsLetterEmailModel
+from vidyalu_admin.models.competecy_areas_model import CompetencyAreasModel
