@@ -8,7 +8,7 @@ from student.models.course_booking import CourseBooking
 
 class StudentCourseBookingView(APIView):
     """
-        student can book the course.
+        student can book the cours. edit by shyam branch guy 
     """
     permission_classes = (IsStudent,)
 
