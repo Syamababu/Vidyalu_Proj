@@ -2,12 +2,9 @@ import sys
 from time import time
 import jwt,requests,json
 from django.conf import settings
-
 from rest_framework.views import APIView
-
 from core.helpers import api_response
 from core.permissions import IsTeacherCounsellor
-
 from video_conference.serializers.conference_details_serializer import ConferenceDetailsSerializer
 
 class CreateConferenceURL(APIView):

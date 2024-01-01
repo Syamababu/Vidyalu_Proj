@@ -1,7 +1,6 @@
 from django.db import models
 from core.models.users import User
 from teacher.models.courses_model import Course
-
 from notification.models import SystemNotification
 
 

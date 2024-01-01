@@ -27,7 +27,6 @@ class StudentCourseBookingDetailView(APIView):
         student get the details of course booking.
     """
     permission_classes = (IsStudent,)
-
     def get(self, request):
         booking_course = CourseBooking.objects.filter(user_id=request.user.id,is_booking=True).order_by('-purchase_at')
         # print(booking_course)

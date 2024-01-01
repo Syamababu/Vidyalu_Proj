@@ -17,7 +17,7 @@ from core.models.users import User
 from datetime import date,timedelta
 from django.conf import settings
 # from django.utils import timezone
-from backports.zoneinfo import ZoneInfo
+# from backports.zoneinfo import ZoneInfo
 
 """class CourseScheduleView(APIView):
 
